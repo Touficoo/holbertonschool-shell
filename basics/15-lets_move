@@ -1,4 +1,5 @@
 #!/bin/bash
 for file in [[:upper:]]*; do
-    mv "$file" /tmp/u/
+    mv "$file" /tmp/u/ && echo "File $file moved successfully"
 done
+
