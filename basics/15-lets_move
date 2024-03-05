@@ -1,0 +1,4 @@
+#!/bin/bash
+for file in [[:upper:]]*; do
+    mv "$file" /tmp/u/
+done
